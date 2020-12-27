@@ -9,15 +9,20 @@ export const CollectionItemContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
+
   &:hover {
     .image {
-      opacity: 0.8;
+      opacity: unset;
     }
+
     button {
-      opacity: 0.85;
-      display: flex;
+      opacity: unset;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+}
 `;
 
 export const AddButton = styled(CustomButton)`
@@ -26,6 +31,13 @@ export const AddButton = styled(CustomButton)`
   position: absolute;
   top: 255px;
   display: none;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    opacity: 0.9;
+    min-width: unset;
+    padding: 0px 10px;
+}
 `;
 
 export const BackgroundImage = styled.div`
