@@ -25,6 +25,7 @@
     "hosted-git-info": "^6.1.1",
     "immer": "^9.0.16",
     "ini": "^3.0.1",
+    "is-svg": "^4.3.2",
     "loader-utils": "^2.0.4",
     "lodash": "^4.17.21",
     "minimatch": "^5.1.0",
