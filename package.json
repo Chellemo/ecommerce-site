@@ -23,7 +23,6 @@
     "express": "^4.18.2",
     "express-sslify": "^1.2.0",
     "hosted-git-info": "^6.1.1",
-    "immer": "^9.0.16",
     "ini": "^3.0.1",
     "is-svg": "^4.3.2",
     "loader-utils": "^2.0.4",
@@ -38,7 +37,9 @@
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
+    "ansi-html": "^0.0.9",
     "concurrently": "^7.5.0",
+    "immer": "^9.0.16",
     "nodemon": "^2.0.20"
   }
 }
