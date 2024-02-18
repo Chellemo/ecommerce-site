@@ -24,7 +24,7 @@
     "express-sslify": "^1.2.0",
     "hosted-git-info": "^6.1.1",
     "ini": "^3.0.1",
-    "is-svg": "^4.3.2",
+    "is-svg": "^4.4.0",
     "loader-utils": "^2.0.4",
     "lodash": "^4.17.21",
     "minimatch": "^5.1.0",
